@@ -224,9 +224,11 @@ Resources:
         - openid
         - aws.cognito.signin.user.admin
       CallbackURLs:
-        - http://localhost:8081/absproxy/8081 # REPLACE WITH BIKE APP URL
+        - https://main.d2fy4ci5ke2wop.amplifyapp.com/
+        - http://localhost:8081/absproxy/8081 # Keep for local development
       LogoutURLs:
-        - http://localhost:8081/absproxy/8081/ # REPLACE WITH BIKE APP URL
+        - https://main.d2fy4ci5ke2wop.amplifyapp.com/
+        - http://localhost:8081/absproxy/8081/ # Keep for local development
       SupportedIdentityProviders:
         - COGNITO
 
